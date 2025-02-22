@@ -1,4 +1,4 @@
-all: main1 main2
+all: main1 main2 main3
 
 main%: main%.c
 	gcc -O3 -fno-inline-small-functions $< -o $@
